@@ -1,5 +1,5 @@
-#Diferença de classes vs IDs
-*Entenda um pouco mais a diferença de classes e IDs:
+# Diferença de classes vs IDs
+* Entenda um pouco mais a diferença de classes e IDs:
 
 O Html e CSS nos possibilita de formatar propriedades que podem ser feitas através de um ID ou Class.
 
