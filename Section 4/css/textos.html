@@ -4,6 +4,10 @@
     <title>Textos</title>
     <meta charset="utf-8" />
     <style type="text/css">
+        div {
+            font-size: 18px;
+        }
+
         .texto {
             font-size: 20px;
         }
@@ -13,8 +17,24 @@
             /*px, %, em (em define de forma proporcional, neste caso 2.5em = 2.5*10px (que vem do div))*/
         }
 
-        div {
-            font-size: 10px;
+        .negrito {
+            font-weight: bold;
+            /* podemos variar de 100 a 900*/
+        }
+
+        .estilo {
+            font-style: italic;
+            /* font-style: oblique; */
+        }
+
+        .texto-padrao {
+            font: bold 40px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        }
+
+        .formatacao {
+            /* text-decoration: underline; */
+            /* text-decoration: overline; */
+            text-decoration: line-through;
         }
     </style>
 </header>
@@ -42,12 +62,30 @@
             vitae rhoncus felis. Nunc orci velit, placerat et malesuada in, viverra et sem. Nulla augue leo, rutrum at
             tempor vitae, posuere accumsan risus.</p>
 
-        <p>Etiam magna nisi, imperdiet ut libero id, convallis scelerisque ante. Nulla volutpat tincidunt enim quis
+        <p class="negrito">Etiam magna nisi, imperdiet ut libero id, convallis scelerisque ante. Nulla volutpat
+            tincidunt enim quis
             accumsan. Aliquam pharetra suscipit elit. Vestibulum ligula massa, pulvinar nec vulputate accumsan,
             fringilla in
             massa. Nunc et suscipit lectus. Vivamus tristique congue ultricies. Suspendisse quis semper justo, at
             interdum
             massa. Maecenas convallis, ipsum eget efficitur blandit, sem est volutpat mi, in euismod diam sapien in est.
+        </p>
+
+        <p class="estilo">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec
+            aliquet urna tortor, at ullamcorper metus pulvinar sed. Aliquam erat volutpat. Nullam sit amet interdum sem.
+            Nunc vitae justo facilisis, porttitor arcu semper, euismod mi. Donec a mi a neque mattis convallis. Sed
+            tincidunt ante et porttitor cursus. Maecenas turpis arcu, molestie eget eros sed, ornare finibus neque.</p>
+
+        <p class="text-padrao">Praesent non dui lacus. Sed aliquam nibh dolor, vel sagittis neque vulputate at.
+            Vivamus nec fermentum ligula, vel mollis augue. <span class="formatacao">Quisque</span> sed purus fermentum,
+            semper nisl sed, mollis
+            mauris. In in ullamcorper velit. Proin volutpat sit amet sem vitae ultrices. Nunc vulputate urna eget
+            erat congue, et lobortis libero varius. Ut bibendum velit sit amet elit tempus feugiat. Fusce gravida
+            rutrum nisi eu volutpat. In facilisis vulputate nulla. Maecenas mollis tincidunt diam. Aenean quis erat
+            mauris. Morbi ut lacus pellentesque, semper nunc et, pellentesque velit. Vestibulum pulvinar nunc eget
+            purus ultrices tristique. Nullam tristique, quam non tincidunt sagittis, turpis velit pellentesque nisi,
+            vitae mattis libero quam vitae tortor. Quisque dui eros, placerat non mollis laoreet, venenatis a
+            tortor.
         </p>
     </div>
 
