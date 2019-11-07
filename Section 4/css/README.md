@@ -14,3 +14,13 @@ Seguindo a ideia acima, o ônibus é sua página da internet. Um elemento ú
 # links uteis
 
 * https://www.w3schools.com/css/css_border.asp
+
+# Códigos de cores html Online:
+* http://html-color-codes.info/Codigos-de-Cores-HTML/
+
+# Tipos de fontes:
+* http://www.w3schools.com/css/css_font.asp
+
+# Fontes seguras para utilizar em seus projetos:
+* http://www.w3schools.com/cssref/css_websafe_fonts.asp
+
