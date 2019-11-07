@@ -11,3 +11,6 @@ Neste mesmo ônibus, agora você chama os passageiros do sexo masculino. 15 pa
 
 Seguindo a ideia acima, o ônibus é sua página da internet. Um elemento único na página terá como CSS um “ID”, e elementos que compartilham mais de um estilo serão um “CLASS”. 
 
+# links uteis
+
+* https://www.w3schools.com/css/css_border.asp
