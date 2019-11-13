@@ -9,14 +9,41 @@
     <style type="text/css">
         body {
             background: #61bd8c;
-            padding: 10px;
         }
 
         #conteudo-principal{
             background: #ffffff;
             padding: 10px;
             width: 600px;
+            height: 2500px;
             margin: 30px auto;
+            margin-top: 120px;
+            /* position: relative; */
+        }
+        .caixa{
+            background: #1e6f44;
+            width: 100px;
+            height: 100px;
+            color: #FFFFFF;
+        }
+        #relativo{
+            position: relative;
+            left: -30px;
+            top: 0;
+            width: 660px;
+        }
+        #absoluto{
+            position: absolute;
+            bottom: 0;
+            right: 30px;
+
+        }
+        #fixed{
+            position: fixed;
+            top: 0;
+            left:0;
+            width: 100%;
+            background: #000;
         }
     </style>
 </head>
@@ -24,13 +51,16 @@
 <body>
         
     <div id="conteudo-principal">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur non enim consectetur accumsan.
-            Sed quis magna efficitur felis porta scelerisque sed consequat magna. Proin magna ante, venenatis sit amet
-            condimentum in, molestie sit amet sapien. Sed ex neque, ultrices non quam et, fringilla vulputate purus.
-            Vestibulum at sodales velit. Sed viverra est a ex accumsan aliquam. Nam id viverra ipsum. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Nulla quis mauris orci. Suspendisse commodo leo sed justo aliquet, at
-            ullamcorper nisl luctus. Cras varius ornare mi id hendrerit. Cras at placerat augue, at suscipit nisl.
-            Pellentesque aliquet maximus dui et porttitor.</p>
+        <h1>Posicionamento</h1>
+
+        <h4>Relative</h4>
+        <div id="relativo" class="caixa">Relative</div>
+
+        <h4>Absolute</h4>
+        <div id="absoluto" class="caixa">Relative</div>
+
+        <h4>Fixed</h4>
+        <div id="fixed" class="caixa">Relative</div>
     </div>
 
 </body>
