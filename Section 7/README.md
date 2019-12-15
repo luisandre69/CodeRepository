@@ -11,3 +11,7 @@
 [Transparências](http://www.w3schools.com/css/css3_colors.asp)
 
 [Degradês](http://www.w3schools.com/css/css3_gradients.asp)
+
+[Sombras em textos](http://www.w3schools.com/cssref/css3_pr_text-shadow.asp)
+
+[Sombras em caixas](http://www.w3schools.com/cssref/css3_pr_box-shadow.asp)
