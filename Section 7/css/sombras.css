@@ -1,0 +1,21 @@
+#box {
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 8px;
+    background: #009670;
+    /* box-shadow: 10px 10px 10px 20px rgba(255, 0, 0, 0.8); */
+    box-shadow: 10px 10px 10px red, -10px -10px 2px yellow;
+}
+
+#box h1 {
+    color: white;
+    font-size: 60px;
+    /* text-shadow: 25px -25px 10px black; */
+    /* 1' 25px - para a direita, negativo para a esquerda */
+    /* 2' -25px - para cima, positivo para baixo */
+    /* 3' 10px e o blur na sombra */
+
+    /* text-shadow: 25px -25px rgba(0,0,0,0.5); */
+    text-shadow: 5px 5px black;
+}

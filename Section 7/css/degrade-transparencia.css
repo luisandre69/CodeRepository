@@ -1,0 +1,21 @@
+#box{
+    width: 300px;
+    height: 300px;
+    background: url("../img/camera.png");
+    padding: 5px;
+}
+#box h1{
+    background: rgba(255, 255, 255, 0.5);
+    border-bottom: 2px solid #FFF;
+}
+#box_2{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to left, red,yellow);
+    /* background: linear-gradient(45deg, red,yellow); */
+}
+#box_3{
+    width: 300px;
+    height: 300px;
+    background: radial-gradient( red,yellow,red,yellow,red);
+}
