@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Grid</title>
+  <title>Tabelas</title>
 
   <!-- Bootstrap -->
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!--css-->
-  <link href="css/grid.css" rel="stylesheet">
-
+  <link href="estilo.css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,42 +22,39 @@
 
 <body>
 
+  <div class="container">
 
-  <div class="row">
-    <div class="col-md-6 marcador">
-      <h1>Conteudo do site</h1>
+    <div class="page-header">
+      <h1>Tabela bootstrap</h1>
     </div>
-    <div class="col-md-6 marcador">
-      <h1>Conteudo do site2</h1>
-    </div>
-  </div>
 
-  <div class="row">
-    <div class="col-sm-6 marcador">
-      <h1>Conteudo do site</h1>
-    </div>
-    <div class="col-sm-6 marcador">
-      <h1>Conteudo do site2</h1>
-    </div>
-  </div>
+    <table class="table table-striped table-bordered table-hover table-condensed">
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Fabricante</th>
+          <th>Preço</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="success">
+          <td>Notebook 980</td>
+          <td>HP</td>
+          <td>£1.800,00</td>
+        </tr>
+        <tr class="danger">
+          <td>MacBook Air</td>
+          <td>Apple</td>
+          <td>£4.800,00</td>
+        </tr>
+        <tr>
+          <td class="warning">HP Pavillon</td>
+          <td class="info">HP</td>
+          <td>£2.800,00</td>
+        </tr>
+      </tbody>
+    </table>
 
-  <div class="row">
-    <div class="col-xs-6 marcador">
-      <h1>Conteudo do site</h1>
-    </div>
-    <div class="col-xs-6 marcador">
-      <h1>Conteudo do site2</h1>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-xs-6 col-sm-10 col-md-2 col-lg-10 marcador">
-      <h1>1</h1>
-    </div>
-    <div class="col-xs-6 col-sm-2 col-md-10 col-lg-2 marcador">
-      <h1>2</h1>
-    </div>
-  </div>
   </div>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
