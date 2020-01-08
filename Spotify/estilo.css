@@ -67,6 +67,36 @@ nav.navbar-transparente {
     vertical-align: middle;
 }
 
+/* -- botoes -- */
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px 35px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+
+.btn-roxo{
+    background: #7c25f8;
+}
+
+.btn-roxo:hover{
+    background-color: #6207e3;
+    color: white;
+}
+
+.btn-branco{
+    border: 2px solid white;
+}
+
+.btn-branco:hover{
+    background-color: white;
+    color: black;
+}
+
 /* ===================== Tipografia ================== */
 h1 {
     font-size: 100px;
