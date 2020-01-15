@@ -22,3 +22,28 @@ var mostRecentObject = a.filter(e => {
 })[0];
 
 console.log(mostRecentObject.id);
+
+
+// var jsonData = JSON.parse(responseBody);
+
+// let myMap = new Map()
+// let id = "id";
+// let date = "date";
+// let info;
+
+// for (j = 0; j < jsonData.data.length; j++) {
+
+//     let flowsdata = jsonData.data[j].data.flows.data;
+//     for (i = 0; i < flowsdata.length; i++) {
+//         info = flowsdata[i].data;
+
+//         myMap.set(id, info.id);
+//         myMap.set(date, info.active_from);
+
+//         console.log("date", myMap.get(date));
+//         console.log("id:", myMap.get(id));
+
+//     }
+
+//     console.log("###########################")
+// }
