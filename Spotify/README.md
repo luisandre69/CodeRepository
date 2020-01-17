@@ -42,3 +42,5 @@ tv – televisores
 [Link do recurso respond.js](https://cdnjs.com/libraries/respond.js/)
 
 [Spotify - Overflow](https://www.w3schools.com/cssref/pr_pos_overflow.asp)
+
+[Spotify - Escondendo elementos](http://getbootstrap.com/css/#responsive-utilities)
