@@ -9,6 +9,7 @@ html,
 body,
 .capa {
     height: 100%;
+    overflow: auto;
 }
 
 body {
@@ -47,11 +48,13 @@ nav.navbar-transparente {
     margin: 16px 10px;
 }
 
-.navbar-inverse .navbar-nav>li>a, footer .nav a {
+.navbar-inverse .navbar-nav>li>a,
+footer .nav a {
     color: white;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover {
+.navbar-inverse .navbar-nav>li>a:hover,
+footer .nav a:hover {
     color: #9bf0e1;
     background: none;
 }
@@ -133,14 +136,48 @@ footer {
     position: relative;
 }
 
-.item-rede-social{
+.item-rede-social {
     float: right;
 }
+
 /* ===================== Tipografia ================== */
 h1 {
     font-size: 100px;
     font-weight: 900;
     letter-spacing: -0.05em;
+}
+
+/* Media queries */
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .btn-custom {
+        margin: 10px 15px;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 70px;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    h1 {
+        font-size: 80px;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 100px;
+    }
 }
 
 h2 {
