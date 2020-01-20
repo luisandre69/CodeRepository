@@ -1,4 +1,4 @@
-# Operdores de comparacao
+# Operadores de comparacao
 
 | Operador | Nome | Funcao |
 | :--- | :--- | :--- |
