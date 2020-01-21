@@ -19,5 +19,5 @@
 | Operador | Nome | Funcao |
 | :---| :--- | :--- |
 |  && |    E    | Verdadeiro se todas as expressoes forem verdadeiras        |
-|  || |    Ou   | Verdadeiro se pelo menos uma das expressoes for verdadeira |
+|  \|\| |    Ou   | Verdadeiro se pelo menos uma das expressoes for verdadeira |
 |  !  | Negacao | Inverte o resultado da expressao                           |
