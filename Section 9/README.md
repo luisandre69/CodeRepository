@@ -1,8 +1,10 @@
-# Operadores de comparacao
+# Operadores
+
+### Operadores de comparacao
 
 | Operador | Nome | Funcao |
 | :--- | :--- | :--- |
-|  ==  | Igual          | Vallores sao iguais?                                       |
+|  ==  | Igual          | Valores sao iguais?                                        |
 |  === | Identico       | Valores sao iguais e do mesmo tipo?                        |
 |  !=  | Diferente      | Valores sao diferentes?                                    |
 |  <>  | Diferente      | Valores sao diferentes?                                    |
@@ -11,3 +13,11 @@
 |  >   | Maior que      | Valor da esquerda e maior que o valor da direita?          |
 |  <=  | Menor ou igual | Valor da esquerda e menor ou igual que o valor da direita? |
 |  >=  | Menor ou igual | Valor da esquerda e maior ou igual que o valor da direita? |
+
+### Operadores Logicos
+
+| Operador | Nome | Funcao |
+| :---| :--- | :--- |
+|  && |    E    | Verdadeiro se todas as expressoes forem verdadeiras        |
+|  || |    Ou   | Verdadeiro se pelo menos uma das expressoes for verdadeira |
+|  !  | Negacao | Inverte o resultado da expressao                           |
