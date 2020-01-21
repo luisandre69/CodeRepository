@@ -18,6 +18,18 @@
 
 | Operador | Nome | Funcao |
 | :---| :--- | :--- |
-|  && |    E    | Verdadeiro se todas as expressoes forem verdadeiras        |
+|  && |    E    | Verdadeiro se todas as expressoes forem verdadeiras          |
 |  \|\| |    Ou   | Verdadeiro se pelo menos uma das expressoes for verdadeira |
-|  !  | Negacao | Inverte o resultado da expressao                           |
+|  !  | Negacao | Inverte o resultado da expressao                             |
+
+### Operadores aritmeticaos
+
+| Operador | Nome | Funcao |
+| :---| :--- | :--- |
+|  + | Adicao        | Soma Valores                               |
+|  - | Substracao    | Diferenca entre valores                    |
+|  * | Multiplicacao | Produto dos valores                        |
+|  / | Divisao       | Quociente dos valores                      |
+|  % | Modulo        | Resto existente em uma operacao de divisao |
+| ++ | Incremento    | Pre/Pos incremento                         |
+| -- | Decremento    | Pre/Pos decremento                         |
