@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>While</title>
+    <title>loops</title>
     <meta charset="utf-8">
     <script type="text/javascript">
         var x = 0;
@@ -14,8 +14,20 @@
             if (x == 5) {
                 continue;
             }
-            document.write(x);
+            document.write(x + '<br />');
         }
+
+        //do while
+        var x = 0;
+        do {
+            document.write(x + '<br />');
+            x++
+        } while (x < 0);
+
+        for (var x = 0; x <= 11; x++) {
+            document.write(x + '<br />');
+        }
+
     </script>
 </head>
 
