@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>loops</title>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+        var x = 0;
+        while (x <= 10) {
+            if (x == 7) {
+                break;
+            }
+            x++;
+            if (x == 5) {
+                continue;
+            }
+            document.write(x + '<br />');
+        }
+
+        //do while
+        var x = 0;
+        do {
+            document.write(x + '<br />');
+            x++
+        } while (x < 0);
+
+        for (var x = 0; x <= 11; x++) {
+            document.write(x + '<br />');
+        }
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

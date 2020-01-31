@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>if_else</title>
+
+    <script type="text/javascript">
+        // ==
+        document.write("==");
+        document.write("<br />");
+        if (2 == 2) {
+            document.write("verdadeiro");
+            document.write("<br />");
+        } else {
+            document.write("falso");
+            document.write("<br />");
+        }
+
+        if (2 == 3) {
+            document.write("verdadeiro");
+            document.write("<br />");
+        } else {
+            document.write("falso");
+            document.write("<br />");
+        }
+
+        // ===
+        document.write("===");
+        document.write("<br />");
+        if (2 === 2) {
+            document.write("verdadeiro");
+            document.write("<br />");
+        } else {
+            document.write("falso");
+            document.write("<br />");
+        }
+
+        if (2 === '2') {
+            document.write("verdadeiro");
+            document.write("<br />");
+        } else {
+            document.write("falso");
+            document.write("<br />");
+        }
+
+        // !=
+        document.write("!=");
+        document.write("<br />");
+        if (2 != 3) {
+            document.write("verdadeiro");
+            document.write("<br />");
+        } else {
+            document.write("falso");
+            document.write("<br />");
+        }
+
+        if (2 != 2) {
+            document.write("verdadeiro");
+            document.write("<br />");
+        } else {
+            document.write("falso");
+            document.write("<br />");
+        }
+
+        // !==
+        document.write("!==");
+        document.write("<br />");
+        if (2 !== "3") {
+            document.write("verdadeiro");
+            document.write("<br />");
+        } else {
+            document.write("falso");
+            document.write("<br />");
+        }
+
+        if (2 !== 2) {
+            document.write("verdadeiro");
+            document.write("<br />");
+        } else {
+            document.write("falso");
+            document.write("<br />");
+        }
+
+        // <
+        document.write("<");
+        document.write("<br />");
+        if (2 < 3) {
+            document.write("verdadeiro");
+            document.write("<br />");
+        } else {
+            document.write("falso");
+            document.write("<br />");
+        }
+
+        if (2 < 2) {
+            document.write("verdadeiro");
+            document.write("<br />");
+        } else {
+            document.write("falso");
+            document.write("<br />");
+        }
+
+        // <=
+        document.write("<=");
+        document.write("<br />");
+        if (2 <= 2) {
+            document.write("verdadeiro");
+            document.write("<br />");
+        } else {
+            document.write("falso");
+            document.write("<br />");
+        }
+
+        if (2 < 1) {
+            document.write("verdadeiro");
+            document.write("<br />");
+        } else {
+            document.write("falso");
+            document.write("<br />");
+        }
+
+        // >
+        document.write(">");
+        document.write("<br />");
+        if (3 > 2) {
+            document.write("verdadeiro");
+            document.write("<br />");
+        } else {
+            document.write("falso");
+            document.write("<br />");
+        }
+
+        if (2 > 2) {
+            document.write("verdadeiro");
+            document.write("<br />");
+        } else {
+            document.write("falso");
+            document.write("<br />");
+        }
+
+        // >=
+        document.write(">=");
+        document.write("<br />");
+        if (2 >= 2) {
+            document.write("verdadeiro");
+            document.write("<br />");
+        } else {
+            document.write("falso");
+            document.write("<br />");
+        }
+
+        if (2 > 3) {
+            document.write("verdadeiro");
+            document.write("<br />");
+        } else {
+            document.write("falso");
+            document.write("<br />");
+        }
+
+        document.write("###############################");
+        document.write("<br />");
+        document.write("<br />");
+
+        // var nota = prompt('Digite a nota do aluno:');
+        // var media = 10;
+
+        // if (nota >= media) {
+        //     document.write("O aluno passou")
+        // } else {
+        //     document.write("O aluno nao passou")
+        // }
+
+        // &&
+        // ||
+        // !
+        document.write("Operadores logicos");
+
+        document.write("<br />");
+        document.write("<br />");
+        if (2 == 2 && 3 == 4) {
+            document.write("verdadeiro");
+        } else {
+            document.write("falso");
+        }
+
+        document.write("<br />");
+        document.write("<br />");
+        if (2 == 2 || 3 == 4) {
+            document.write("verdadeiro");
+        } else {
+            document.write("falso");
+        }
+
+        document.write("<br />");
+        document.write("<br />");
+        if (!(2 == 2)) {
+            document.write("verdadeiro");
+        } else {
+            document.write("falso");
+        }
+
+        document.write("<br />");
+        document.write("<br />");
+
+        var nota = prompt('Digite a nota do aluno:');
+        var faltas = prompt('Digite a quantidade de faltas do aluno:');
+        var media = 10;
+        var faltas_limite = 15;
+
+        if (nota >= media && faltas <= faltas_limite) {
+            document.write("O aluno passou")
+        } else {
+            document.write("O aluno nao passou")
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
