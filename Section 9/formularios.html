@@ -5,7 +5,7 @@
     <title>formularios</title>
     <meta charset="utf-8">
     <script type="text/javascript">
-        function boasVindas(){
+        function boasVindas() {
             alert('Hello!');
         }
     </script>
@@ -13,11 +13,14 @@
 
 <body>
     <!-- onfocus -->
-
+    <input onfocus="alert('O elemento foi focado');" type="text" />
     <!-- onblur -->
-    
+    <input onblur="alert('O elemento perdeu o foco');" type="text" />
     <!-- onchange -->
-    
+    <select onchange="alert('A opcao foi alterada')">
+        <option value="1">Primeira opcao</option>
+        <option value="2">Segunda opcao</option>
+    </select>
 </body>
 
 </html>
